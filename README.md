@@ -18,7 +18,8 @@ This repository contains a machine learning project for predicting heart disease
 The Heart Disease Prediction project aims to develop machine learning models to predict the presence of heart disease in patients based on various health parameters. This project utilizes the UCI Heart Disease dataset to train and evaluate multiple classification algorithms.
 
 ## Dataset
-The dataset used in this project is the UCI Heart Disease dataset, which contains several health metrics and a binary target indicating the presence or absence of heart disease.
+The dataset used in this project is the Heart Disease dataset, which contains several health metrics and a binary target indicating the presence or absence of heart disease.
+https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
 
 ## Methodology
 1. **Data Preprocessing**:
@@ -32,27 +33,25 @@ The dataset used in this project is the UCI Heart Disease dataset, which contain
 
 ## Model Evaluation Results
 ### Logistic Regression
-- Accuracy: XX%
-- Precision: 0 - X.X, 1 - X.X
-- Recall: 0 - X.X, 1 - X.X
+- Accuracy: 86%
+- Precision: 0 -> 0.92, 1 -> 0.82
+- Recall: 0 -> 0.81, 1 -> 0.93
 
 ### K-Nearest Neighbors (KNN)
 - Accuracy: 100%
-- Precision: 0 - X.X, 1 - X.X
-- Recall: 0 - X.X, 1 - X.X
+- Precision: 0 -> 1.00, 1 -> 1.00
+- Recall: 0 -> 1.00, 1 -> 1.00
 
 ### Random Forest
 - Accuracy: 100%
-- Precision: 0 - X.X, 1 - X.X
-- Recall: 0 - X.X, 1 - X.X
-
-*Note: Replace XX and X.X with actual values obtained from your evaluation metrics.*
+- Precision: 0 -> 1.00, 1 -> 1.00
+- Recall: 0 -> 1.00, 1 -> 1.00
 
 ## Conclusion
 This project demonstrates the application of machine learning techniques to predict heart disease. The models showed promising accuracy, with KNN and Random Forest achieving 100% accuracy.
 
 ## Requirements
-- Python 3.x
+- Python 3.13.0
 - pandas
 - numpy
 - scikit-learn
